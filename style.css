@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #121212;
+}
+
+.parent-main-box {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.main-box {
+  padding: 2rem;
+  background-color: #1e1e1e;
+  border-radius: 0.5rem;
+}
+
+.history-box {
+  background-color: red;
+  display: flex;
+}
+
+.main-box h1 {
+  margin: 0 0 1rem 0;
+  color: white;
+}
+
+#img-box {
+  display: grid;
+  place-items: center;
+  background-color: #121212;
+  width: 380px;
+  height: 200px;
+  border-radius: 0.5rem;
+  outline: 2px solid #121212;
+}
+
+#percentDisplay {
+  margin: 1rem 0;
+  color: white;
+  font-size: 20px;
+}
+
+#tierDisplay {
+  width: 18px;
+  margin: -1.2px;
+}
+
+#skinTitleDisplay {
+  margin: 1rem;
+  color: white;
+  font-size: 30px;
+}
+
+#itemImgDisplay {
+  width: 320px;
+}
+
+#caseCountDisplay, #specialCountDisplay {
+    color:white;
+    font-size: 15px;
+}
+
+#openCaseBtn {
+  background-color: green;
+  border: none;
+  padding: 1rem 7rem;
+  color: white;
+  font-size: 16px;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  transition: 0.5s;
+  margin: 1.5rem 0;
+}
+
+#openCaseBtn:active {
+    background-color: white;
+    color: green;
+}
+
+.button-box {
+  text-align: center;
+}
